@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Thời Trang</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+  </head>
+
+  <body>
+    <!-- <header> -->
+    <header>
+      <div class="container">
+        <div class="header-content row">
+          <div class="header-content-logo">
+            <a href="#">
+              <img src="./images/logo.png" alt="" />
+            </a>
+          </div>
+          <div class="header-content-nav">
+            <ul>
+              <li><a href="#">Trang chủ</a></li>
+              <li><a href="#">bộ sưu tập</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">giới thiệu</a></li>
+              <li><a href="#">liên hệ</a></li>
+            </ul>
+          </div>
+          <div class="header-content-search">
+            <input type="text" placeholder="Tìm kiếm" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="header-content-icon">
+            <img src="./images/cart.png" alt="" />
+            <img src="./images/user.png" alt="" />
+            <!-- <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-user"></i> -->
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- <section class="slider"> -->
+    <section class="slider">
+      <div class="slider-content">
+        <div class="slider-content-item-pre-next">
+          <i class="fas fa-chevron-left"></i>
+          <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="slider-content-item row active">
+          <div class="slider-content-item-left">
+            <div class="slider-content-item-left-text">
+              <h1>Áo Nữ</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque obcaecati nam, sunt laudantium in eum!
+              </p>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+              <button>
+                <p>Thêm giỏ hàng<i class="fa-solid fa-cart-shopping"></i></p>
+              </button>
+            </div>
+          </div>
+          <div class="slider-content-item-right">
+            <img src="./images/slide1.png" alt="slider1" />
+          </div>
+        </div>
+        <div class="slider-content-item row">
+          <div class="slider-content-item-left">
+            <div class="slider-content-item-left-text">
+              <h1>Váy Nữ</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque obcaecati nam, sunt laudantium in eum!
+              </p>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+              <button>
+                <p>Thêm giỏ hàng<i class="fa-solid fa-cart-shopping"></i></p>
+              </button>
+            </div>
+          </div>
+          <div class="slider-content-item-right">
+            <img src="./images/slider2.png" alt="slider2" />
+          </div>
+        </div>
+        <div class="slider-content-item row">
+          <div class="slider-content-item-left">
+            <div class="slider-content-item-left-text">
+              <h1>Quần Nữ</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque obcaecati nam, sunt laudantium in eum!
+              </p>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+              <button>
+                <p>Thêm giỏ hàng<i class="fa-solid fa-cart-shopping"></i></p>
+              </button>
+            </div>
+          </div>
+          <div class="slider-content-item-right">
+            <img src="./images/silder3.png" alt="slider3" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="category"> -->
+    <section class="category">
+      <div class="container">
+        <div class="category-content row">
+          <div class="category-item">
+            <img src="./images/caterogy1.jpg" alt="" />
+            <h2>Váy Nữ</h2>
+          </div>
+          <div class="category-item">
+            <img src="./images/caterogy3.jpg" alt="" />
+            <h2>Áo Nữ</h2>
+          </div>
+          <div class="category-item">
+            <img src="./images/caterogy2.jpg" alt="" />
+            <h2>Quần Nữ</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="product"> -->
+    <section class="product">
+      <h1 class="title_h1">Sản Phẩm</h1>
+      <!-- list váy -->
+      <div class="product-item">
+        <div class="container">
+          <h2 class="title_h2">Váy</h2>
+          <div class="product-content owl-carousel owl-theme">
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/vay1.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/vay2.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/vay3.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/vay4.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/vay5.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/vay6.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/vay7.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/vay8.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/vay9.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/vay10.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- list áo -->
+
+      <div class="product-item">
+        <div class="container">
+          <h2 class="title_h2">Áo</h2>
+          <div class="product-content owl-carousel owl-theme">
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/ao1.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/ao2.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/ao3.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/ao4.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/ao5.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/ao6.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/ao7.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/ao8.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/ao9.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/ao10.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-item">
+        <div class="container">
+          <h2 class="title_h2">Quần</h2>
+          <div class="product-content owl-carousel owl-theme">
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/quan1.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/quan2.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/quan3.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/quan4.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/quan5.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/quan6.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/quan7.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/quan8.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/quan9.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-content-item item">
+              <img
+                class="product-content-item-img"
+                src="./images/quan10.webp"
+                alt=""
+              />
+              <div class="product-content-item-text">
+                <div class="product-content-item-text-top">
+                  <h1>Váy chấm bi</h1>
+                  <p>150.000 <sup>đ</sup></p>
+                </div>
+                <button>Thêm vào giỏ</button>
+                <div class="product-content-item-text-social">
+                  <i class="fa-brands fa-square-facebook"></i
+                  ><i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="blogs"> -->
+    <section class="blogs">
+      <div class="container">
+        <h1 class="title_h1">Blogs</h1>
+        <div class="blogs-content row">
+          <div class="blogs-content-item">
+            <img src="./images/blog1.jpg" alt="" />
+            <a href="#"
+              ><h3>Xu hướng thời trang Covid 2019 không thể bỏ qua</h3></a
+            >
+          </div>
+          <div class="blogs-content-item">
+            <img src="./images/blog2.jpg" alt="" />
+            <a href="#"
+              ><h3>Xu hướng thời trang Covid 2019 không thể bỏ qua</h3></a
+            >
+          </div>
+          <div class="blogs-content-item">
+            <img src="./images/blog3.jpg" alt="" />
+            <a href="#"
+              ><h3>Xu hướng thời trang Covid 2019 không thể bỏ qua</h3></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-container row">
+          <div class="footer-container-item">
+            <h3>Thông tin</h3>
+            <ul>
+              <li><a href="#">Công ty TNHH Thời Trang ABC</a></li>
+              <li><a href="#">72 Hàm Nghi - Thanh Khê - Đà Nẵng</a></li>
+              <li><a href="#">Hotline: 18001260</a></li>
+              <li><a href="#">Email: thoitrangabc@gamil.com</a></li>
+              <li><a href="#">MST: 0401223344</a></li>
+            </ul>
+          </div>
+          <div class="footer-container-item">
+            <h3>Liên hệ</h3>
+            <ul>
+              <li><a href="#">Giới thiệu</a></li>
+              <li><a href="#">Liên hệ với chúng tôi</a></li>
+              <li><a href="#">Tin tức</a></li>
+              <li><a href="#">Hệ thống cửa hàng</a></li>
+              <li><a href="#">Chính sách mua hàng</a></li>
+            </ul>
+          </div>
+          <div class="footer-container-item">
+            <h3>Hổ trợ khách hàng</h3>
+            <ul>
+              <li><a href="#">Hỏi đáp</a></li>
+              <li><a href="#">Tư vấn mua hàng</a></li>
+              <li><a href="#">Đăng ký thành viên</a></li>
+              <li><a href="#">Chính sách giao hàng</a></li>
+              <li><a href="#">Chính sách đổi trả hàng</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-content-social">
+          <a href="#">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-square-youtube"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-square-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+        <div class="footer-content-copyright">
+          <span>© Copyright by NguyenTanLuc</span>
+        </div>
+        <div class="footer-content-img">
+          <img src="./images/copyright.png" alt="" />
+        </div>
+      </div>
+    </footer>
+    <script src="./js/style.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.js"
+      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
